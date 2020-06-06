@@ -19,6 +19,43 @@
 
 
 
+/*$(function(){
+
+    $("#reserveButton").click(function(){
+      $("#reserveModal").show();
+    });
+  }); */
+
+
+  
+ 
+  $("#reserveButton").click(function(){
+    $('#reserveModal').modal('show');
+  });
+  
+  $("#cancelReserveButton").click(function(){
+    $('#reserveModal').modal('hide');
+   });
+  
+  
+  
+
+
+ $("#loginButton").click(function(){
+
+    $('#loginModal').modal('show');
+
+  });
+  
+
+
+  $("#closeLogin").click(function(){
+
+    $('#loginModal').modal('hide');
+   });
+  
+
+
 
 
 
